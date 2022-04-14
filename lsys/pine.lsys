@@ -1,0 +1,18 @@
+axiom S
+
+terminal [
+terminal ]
+terminal -
+terminal +
+terminal F
+
+rule S->VZFFF
+rule V->[+++W][---W]YV
+rule W->+X[-W]Z
+rule X->-W[+X]Z
+rule Y->YZ
+rule Z->[-FFF][+FFF]F
+
+angle 20
+iterations 12
+step 10

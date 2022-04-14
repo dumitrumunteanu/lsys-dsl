@@ -1,0 +1,14 @@
+# example of comment line
+axiom X
+
+rule X->F-[[X]+X]+F[+FX]-X
+rule F->FF
+
+terminal [
+terminal ]
+terminal -
+terminal +
+
+angle 22.5
+step 3
+iterations 6
